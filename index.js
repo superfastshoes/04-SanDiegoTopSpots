@@ -23,7 +23,7 @@ $(document).ready(function(){
 			htmlTable += "<td>" + place.description + "</td>";
 
 			// Create a button here that will link to the location on goggle maps
-			htmlTable += "<td>" + "<button type='button' class='temp'>" +
+			htmlTable += "<td>" + "<button type='button' >" +
 			"<a href=https://www.google.com/maps?q=" + place.location[0] + "," + place.location[1] + 
 			">Go to Google Maps" + "</a>" + "</button>" + "</td>";
 			htmlTable += "</tr>";

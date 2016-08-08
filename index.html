@@ -2,27 +2,28 @@
 <html>
 <head>
 	<title>San Diego's Top Spots!</title>
-	<link rel="stylesheet"  href="bower_components/materialize/bin/materialize.css">
+	<link rel="stylesheet" href="bower_components/materialize/bin/materialize.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Create a table  -->
-	<!-- Header = Name, Description, Link -->
-	<div >
-		<table id="table">
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Description</th>
-					<th>Link</th>
-				</tr>
-			</thead>
-			<tbody id="allData">
-				
-			</tbody>
-		</table>
+	<div class="body">
+		<!-- Create a table  -->
+		<!-- Header = Name, Description, Link -->
+		<div class="table">
+			<table id="table" class="bordered striped">
+				<thead>
+					<tr class="card-panel teal lighten-2">
+						<th>Name</th>
+						<th>Description</th>
+						<th>Link</th>
+					</tr>
+				</thead>
+				<tbody id="allData">
+					
+				</tbody>
+			</table>
+		</div>
 	</div>
-
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/materialize/bin/materialize.js"></script>
 	<script src="index.js"></script>
